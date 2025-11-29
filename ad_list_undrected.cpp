@@ -15,8 +15,8 @@ int main()
         cin>>u>>v;
         graph[u].push_back(v);
         graph[v].push_back(u);
-       // graph[v][u]=1;for directed this line no need
-       //graph[v][u]=w;//this line need ed when undirected graph
+       
+       
     }
     for(int i=0;i<graph.size();i++)
     {
@@ -29,4 +29,5 @@ int main()
     }
 
 }
+
 
